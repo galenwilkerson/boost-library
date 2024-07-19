@@ -156,7 +156,6 @@ Galen Wilkerson
 
 ### `Makefile`
 
-```makefile
 # Makefile for Boost Library Demonstration
 
 # Compiler
