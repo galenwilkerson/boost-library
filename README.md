@@ -50,7 +50,7 @@ A `Makefile` is provided to simplify the compilation and execution process. To c
 ```bash
 make
 ./boost_demo
-```
+
 
 ### Manual Compilation
 
@@ -60,6 +60,24 @@ Alternatively, you can manually compile and run the program using the following 
 g++ boost_demo.cpp -o boost_demo -lboost_system -lboost_filesystem -lboost_regex -lboost_date_time -lboost_thread -lboost_chrono -lboost_graph -lboost_program_options -lpthread
 ./boost_demo
 ```
+
+## System Requirements
+
+To build and run the project, your system must meet the following requirements:
+
+- **Operating System**: Ubuntu 22.04.4 LTS (Jammy Jellyfish)
+- **GCC**: Version 11.4.0 or higher
+- **Boost Libraries**: Version 1.74 or higher
+
+### Check System Information
+
+You can check your system information by running the provided script:
+
+```bash
+./gather_system_info.sh
+```
+
+This script will generate a `system_info.txt` file with detailed information about your system's environment, installed software versions, and hardware.
 
 ## Detailed Description of Functionalities
 
