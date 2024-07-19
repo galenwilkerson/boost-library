@@ -149,9 +149,6 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 Contributions are welcome! Please open an issue or submit a pull request with your changes.
 
-## Author
-
-Galen Wilkerson
 ```
 
 ### `Makefile`
