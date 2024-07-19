@@ -50,7 +50,7 @@ A `Makefile` is provided to simplify the compilation and execution process. To c
 ```bash
 make
 ./boost_demo
-
+```
 
 ### Manual Compilation
 
